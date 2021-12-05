@@ -7,7 +7,7 @@ spring:
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
 logging:
-  level:job.com.example.demo.dao:debug
+  level:job.com.example.edu.cms.mapper:debug
 thymeleaf:
   prefix: classpath:/templates/
   suffix: .html
