@@ -2,6 +2,8 @@ package com.example.edu.cms.model;
 
 public class TestDemoModel {
     private  int id;
+    private  String code;
+    private  String sysName;
 
     public int getId() {
         return id;
@@ -19,5 +21,11 @@ public class TestDemoModel {
         this.code = code;
     }
 
-    private  String code;
+    public String getSysName() {
+        return sysName;
+    }
+
+    public void setSysName(String sysName) {
+        this.sysName = sysName;
+    }
 }

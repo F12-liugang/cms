@@ -7,12 +7,14 @@
 <body>
 <table>
     <tr>
-        <th>id</th>
-        <th>code</th>
+        <th>编号</th>
+        <th>登录账号</th>
+        <th>姓名</th>
     </tr>
     <tr th:each="p:${list}">
         <td th:text="${p.id}"></td>
         <td th:text="${p.code}"></td>
+        <td th:text="${p.sysName}"></td>
     </tr>
 </table>
 </body>
