@@ -6,8 +6,8 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
-logging:
-  level:job.com.example.demo.dao:debug
+#logging:
+#  level:job.com.example.edu.cms.mapper:debug
 thymeleaf:
   prefix: classpath:/templates/
   suffix: .html
@@ -16,3 +16,9 @@ thymeleaf:
   content-type: text/html
   cache: false
   enabled: true
+
+mybatis:
+ configuration:
+  log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+  #开启自动下划线格式转驼峰格式
+  map-underscore-to-camel-case: true
