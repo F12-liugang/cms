@@ -3,12 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="8cff3f25-784d-4ac2-8c4d-4db889c0cc6a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/sql/TestDemoSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/sql/TestDemoSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/model/TestDemoModel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/model/TestDemoModel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/default.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/default.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/testDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/testDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/controller/TestDemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/controller/TestDemoController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -97,7 +91,7 @@
       <updated>1638674821464</updated>
       <workItem from="1638674825016" duration="7825000" />
       <workItem from="1638684116941" duration="1196000" />
-      <workItem from="1638685411720" duration="3401000" />
+      <workItem from="1638685411720" duration="3758000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1638681945778</created>
@@ -148,7 +142,28 @@
       <option name="project" value="LOCAL" />
       <updated>1638687487459</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="提交bug输出sql">
+      <created>1638688861043</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1638688861043</updated>
+    </task>
+    <task id="LOCAL-00009" summary="提交bug输出sql">
+      <created>1638688903063</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1638688903063</updated>
+    </task>
+    <task id="LOCAL-00010" summary="提交bug输出sql">
+      <created>1638689052531</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1638689052531</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -175,10 +190,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="405" y="98" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1638688037187" />
-    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1638688988728">
+    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1638689051698">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1638688988728" />
+    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1638689051698" />
     <state x="19" y="61" key="DiffContextDialog" timestamp="1638684186312">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
