@@ -17,6 +17,7 @@ public class TestDemoController {
 
     @RequestMapping("/demo")
     public String SelectUser(Model model){
+        //测试
         List<TestDemoModel> usermodel=testDemoServer.SelectUser();
         model.addAttribute("list", usermodel);
         return "demo/testDemo";
