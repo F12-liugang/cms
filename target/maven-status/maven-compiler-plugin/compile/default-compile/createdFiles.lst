@@ -1,0 +1,5 @@
+com\example\edu\cms\model\TestDemoModel.class
+com\example\edu\cms\CmsApplication.class
+com\example\edu\cms\controller\TestDemoController.class
+com\example\edu\cms\mapper\TestDemoMapper.class
+com\example\edu\cms\server\TestDemoServer.class

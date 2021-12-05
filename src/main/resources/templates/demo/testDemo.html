@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <title>demo测试</title>
+</head>
+<body>
+<table>
+    <tr>
+        <th>id</th>
+        <th>code</th>
+    </tr>
+    <tr th:each="p:${list}">
+        <td th:text="${p.id}"></td>
+        <td th:text="${p.code}"></td>
+    </tr>
+</table>
+<p>1111111111111</p>
+</body>
+</html>
