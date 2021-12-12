@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8cff3f25-784d-4ac2-8c4d-4db889c0cc6a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/model/Result/ResultMsg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/model/Result/ResultUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/static/js/jquery-1.8.3.min.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/CmsApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/CmsApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/controller/TestDemoController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/controller/TestDemoController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/TestDemoMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/TestDemoMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/sql/TestDemoSql.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/mapper/sql/TestDemoSql.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/server/TestDemoServer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/edu/cms/server/TestDemoServer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/demo/testDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/demo/testDemo.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/CmsApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/CmsApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/controller/TestDemoController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/controller/TestDemoController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/mapper/TestDemoMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/mapper/TestDemoMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/server/TestDemoServer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/server/TestDemoServer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/templates/demo/testDemo.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/templates/demo/testDemo.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/edu/cms/mapper/sql/TestDemoSql.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/edu/cms/mapper/sql/TestDemoSql.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -116,7 +101,7 @@
       <workItem from="1638684116941" duration="1196000" />
       <workItem from="1638685411720" duration="8958000" />
       <workItem from="1639222965160" duration="4437000" />
-      <workItem from="1639276154005" duration="5482000" />
+      <workItem from="1639276154005" duration="5916000" />
     </task>
     <task id="LOCAL-00001" summary="创建项目">
       <created>1638681945778</created>
@@ -209,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1638691137908</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="添加inert数据dome">
+      <created>1639281804350</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1639281804350</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -230,7 +222,8 @@
     <MESSAGE value="创建项目测试提交" />
     <MESSAGE value="提交bug输出sql" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="添加inert数据dome" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加inert数据dome" />
   </component>
   <component name="WindowStateProjectService">
     <state x="405" y="98" key="#com.intellij.ide.util.MemberChooser" timestamp="1638688037187">
@@ -241,10 +234,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="451" y="91" key="#xdebugger.evaluate/0.0.1366.728@0.0.1366.728" timestamp="1639276561002" />
-    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1638691136667">
+    <state x="185" y="0" key="CommitChangelistDialog2" timestamp="1639281803007">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1638691136667" />
+    <state x="185" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1639281803007" />
     <state x="19" y="61" key="DiffContextDialog" timestamp="1638689198984">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -321,10 +314,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="186" y="9" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1638681639386" />
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1638693748659">
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2" timestamp="1639281808575">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1638693748659" />
+    <state x="275" y="100" key="Vcs.Push.Dialog.v2/0.0.1366.728@0.0.1366.728" timestamp="1639281808575" />
     <state x="81" y="110" width="1182" height="544" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1638685655531">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
