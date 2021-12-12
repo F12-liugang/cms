@@ -6,6 +6,10 @@ spring:
     username: root
     password: 123456
     driver-class-name: com.mysql.jdbc.Driver
+  mvc:
+    static-path-pattern: /static/**
+    resources:
+      static-locations: classpath:/static/
 thymeleaf:
   prefix: classpath:/templates/
   suffix: .html
@@ -20,3 +24,4 @@ mybatis:
   log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
   #开启自动下划线格式转驼峰格式
   map-underscore-to-camel-case: true
+

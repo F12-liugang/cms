@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <title>demo测试</title>
+<!--    <link rel="stylesheet" type="text/css" media="all" href="/static/css/style.css" th:href="@{/static/css/style.css}"/>-->
+    <script type="text/javascript" src="/static/js/jquery-1.8.3.min.js" th:src="@{/static/js/jquery-1.8.3.min.js}"></script>
 </head>
 <body>
 <table>
@@ -17,6 +19,32 @@
         <td th:text="${p.sysName}"></td>
     </tr>
 </table>
+<form id="formMain">
+<input type="text" id="code" name="code"/>
+<input tyep="text" id="sysName" name="sysName"/>
+</form>
+<input type="button" value="提交" onclick="Add()"/>
 <p>测试demo</p>
 </body>
+<script type="text/javascript">
+    function Add() {
+        var list ={
+            code: $("#code").val(),
+            sysName: $("#sysName").val()
+        };
+        $.ajax({
+            type: "POST",//方法类型
+            url: '/test/add',//url
+            contentType: "application/json;charset=UTF-8",
+            data:JSON.stringify(list),
+            success: function (result) {
+                alert(result.msg);
+                location.reload();
+            },
+            error : function() {
+                alert("异常！");
+            }
+        });
+    }
+</script>
 </html>

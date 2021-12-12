@@ -16,4 +16,8 @@ public class TestDemoServer implements TestDomeApi {
     public List<TestDemoModel> SelectUser(){
         return testDemoMapper.SelectUser();
     }
+
+    public int InsertUser(TestDemoModel model){
+        return testDemoMapper.InsertUser(model);
+    }
 }
